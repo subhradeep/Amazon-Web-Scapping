@@ -207,7 +207,7 @@ print('Process Completed at:',datetime.now())
 # In[ ]:
 
 
-cnx = mysql.connector.connect(user='root', password='test',host='35.224.14.68',database='TEST')
+cnx = mysql.connector.connect(user='root', password='****',host='35.224.14.68',database='TEST')
 print('Database Connection successful')
 cursor = cnx.cursor()
 csv_data = csv.reader('amazon_product.csv',  delimiter='|')
